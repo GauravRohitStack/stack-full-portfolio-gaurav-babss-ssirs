@@ -1,0 +1,39 @@
+.navbar{
+  background:#1d0679;
+  color:rgb(217, 209, 209);
+}
+
+.nav-container{
+  max-width:1200px;
+  margin:auto;
+  padding:15px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.nav-links{
+  display:flex;
+  gap:25px;
+}
+
+.nav-links a{
+  color:rgb(240, 229, 229);
+  text-decoration:none;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+  .nav-links{
+    flex-direction:column;
+    position:absolute;
+    top:60px;
+    left:0;
+    width:100%;
+    background:#111;
+    padding:20px;
+  }
+
+}

@@ -1,0 +1,38 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* container */
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+/* section spacing */
+.section{
+  padding:60px 20px;
+}
+
+/* buttons */
+.btn{
+  padding:12px 24px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.btn-primary{
+  background:#2563eb;
+  color:white;
+}
+
+.btn-outline{
+  border:2px solid #2563eb;
+  color:#2563eb;
+  background:transparent;
+}
