@@ -1,30 +1,67 @@
-
+/* 
 .footer {
   background-image: url("D:\JBM Group of Industries\portfolio\portfolio Ready\portfolioRSG\src\image\portfolio.png"); /* your banner image */
-  background-size: cover;
+  /* background-size: cover;
   background-position: center;
   height: 300px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* dark overlay so text is visible */
-.footer-overlay {
+/* .footer-overlay {
   background: rgba(0,0,0,0.6);
   padding: 25px 40px;
   text-align: center;
   border-radius: 8px;
   color: white;
-}
+} */
 
-.footer-links a {
+/* .footer-links a {
   color: #00bcd4;
   text-decoration: none;
   margin: 0 6px;
+} */
+
+/* .footer-links a:hover {
+  text-decoration: underline;
+} */ 
+
+
+
+
+.footer{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 320px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer-links a:hover {
+.footer-overlay{
+  background: rgba(0,0,0,0.6);
+  padding: 25px 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.footer-text{
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-links a{
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover{
   text-decoration: underline;
 }
