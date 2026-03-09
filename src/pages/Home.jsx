@@ -12,7 +12,7 @@ function Home(){
 
       <p>
         I build scalable web applications using
-        React, Java and Spring Boot
+        React, Java and Spring Boot, MySql
       </p>
       
       <div className="hero-buttons">
