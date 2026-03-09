@@ -11,8 +11,8 @@ function About() {
       </p>
 
       <p style={{ marginTop: "10px" }}>
-        I have built multiple projects including CRM systems,
-        payment systems, and automation tools.
+        I have built multiple projects including Email_Schedular, User_Management_System, Mini_CRM_Business_Systems,
+        Payment_APP_Systems, & Multiple Website Develop, deploy & host and automation tools.
       </p>
     </section>
   );

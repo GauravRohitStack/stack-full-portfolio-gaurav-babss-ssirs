@@ -1,43 +1,3 @@
-// function Contact() {
-//   return (
-//     <div style={{ padding: "60px" }}>
-//       <h1>Contact Me</h1>
-
-//       <p>Feel free to reach out for collaboration or opportunities.</p>
-
-//       <form style={{ marginTop: "20px", maxWidth: "400px" }}>
-        
-//         <div>
-//           <label>Name</label><br />
-//           <input type="text" placeholder="Your Name" />
-//         </div>
-
-//         <br />
-
-//         <div>
-//           <label>Email</label><br />
-//           <input type="email" placeholder="Your Email" />
-//         </div>
-
-//         <br />
-
-//         <div>
-//           <label>Message</label><br />
-//           <textarea placeholder="Your Message"></textarea>
-//         </div>
-
-//         <br />
-
-//         <button type="submit">Send Message</button>
-
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Contact;
-
-
 
 
 import { useRef } from "react"
@@ -53,7 +13,7 @@ function Contact(){
     e.preventDefault()
 
     emailjs.sendForm(
-      "service_zf1t8ja",     // service ID
+      "service_ipo7npt",     // service ID
       "template_zkbg9xx",    // template ID
       form.current,
       "UzNqEuft8pYEz1k8U"   // public key

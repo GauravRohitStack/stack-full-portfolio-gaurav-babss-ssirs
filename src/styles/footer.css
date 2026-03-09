@@ -1,17 +1,9 @@
-/* .footer{
-  background:#035e85;
-  color:rgb(33, 65, 141);
-  text-align:center;
-  padding:20px;
-  margin-top:40px;
-} */
-
 
 .footer {
   background-image: url("D:\JBM Group of Industries\portfolio\portfolio Ready\portfolioRSG\src\image\portfolio.png"); /* your banner image */
   background-size: cover;
   background-position: center;
-  height: 220px;
+  height: 300px;
 
   display: flex;
   align-items: center;

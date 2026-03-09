@@ -14,7 +14,7 @@ function Home(){
         I build scalable web applications using
         React, Java and Spring Boot
       </p>
-
+      
       <div className="hero-buttons">
 
   
