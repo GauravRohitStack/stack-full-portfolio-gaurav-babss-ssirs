@@ -56,7 +56,7 @@ const Footer = () => {
            {" | "}
 
           <a
-            href="linkedin.com/in/rohit-s-gaurav-108331192"
+            href="https://www.linkedin.com/in/rohit-s-gaurav-108331192/"
             target="_blank"
             rel="noreferrer"
           >
